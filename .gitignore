@@ -4,7 +4,10 @@ __pycache__/
 .pytest_cache/
 .ruff_cache/
 .mypy_cache/
-reports/gameday/
 reports/*.json
 reports/*.png
-reports/cache/
+!reports/scoreboard.json
+!reports/experiments.json
+!reports/workflows.json
+!reports/slo.json
+!reports/audit.json
