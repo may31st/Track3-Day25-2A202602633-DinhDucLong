@@ -1,7 +1,7 @@
 # Lab 25B: Report
 
 **Họ tên / nhóm:** Đinh Đức Long (2A202602633)  
-**Commit:** `a613e27`
+**Commit:** `d45b8f7`
  **Điểm tự động (`make grade`):** 84.0 / 88 
 
 Các bảng kết quả dùng seed mô phỏng 25 và seed jitter mặc định 1 của `build_client`. Số liệu nằm trong JSON/CSV tại `reports/gameday/`, `reports/cache/`, `reports/workflows.json`, `reports/slo.json` và `reports/scoreboard.json`.
