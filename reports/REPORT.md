@@ -1,9 +1,8 @@
 # Lab 25B: Report
 
 **Họ tên / nhóm:** Đinh Đức Long (2A202602633)  
-**Commit:** `a613e27d94f92dd175a78f3d83097654afd6eee1` (commit chứa code/config và kết quả kiểm tra)
+**Commit:** `a613e27`
  **Điểm tự động (`make grade`):** 84.0 / 88 
-Ngày 13/10/2026, 82/82 test gốc và 18/18 kiểm tra biên bổ sung đều pass. Bộ chấm đạt mọi tiêu chí public trên seed 25, 26, 27. Máy Windows chưa có `make`, nên các lần kiểm tra dùng lệnh Python tương ứng trong Makefile.
 
 Các bảng kết quả dùng seed mô phỏng 25 và seed jitter mặc định 1 của `build_client`. Số liệu nằm trong JSON/CSV tại `reports/gameday/`, `reports/cache/`, `reports/workflows.json`, `reports/slo.json` và `reports/scoreboard.json`.
 
@@ -280,10 +279,3 @@ Sau audit, phép so sánh burn-rate tại ngưỡng inclusive dùng tolerance 1e
 
 Các ca kiểm tra biên bổ sung đã được chạy trước khi dọn các file kiểm tra tạm. Các tests được cung cấp giữ nguyên.
 
-## 9. Trạng thái chuẩn bị nộp
-
-Repo local nằm trên nhánh main, với origin `https://github.com/may31st/Track3-Day25-2A202602633-DinhDucLong.git`; tên repo khớp MSV và họ tên. REPORT, hình postmortem, JSON/CSV kết quả cùng scoreboard nằm trong reports và không bị Git bỏ qua.
-
-Code/config, báo cáo và artifact đã được commit. Hash ở đầu báo cáo trỏ tới commit chứa phần triển khai và kết quả kiểm tra. Chưa xác minh quyền public của repo hoặc việc gửi link lên kênh lớp.
-
-Trước khi nộp link, kiểm tra origin/main có đủ code và artifact, đồng thời thử mở repo khi không đăng nhập. Giữ lại artifact đã chuẩn bị, không chạy make clean.
